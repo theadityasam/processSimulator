@@ -1,3 +1,5 @@
+package simulator;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -1172,6 +1174,7 @@ public class SimulatorForm extends javax.swing.JFrame {
         });
     }
 
+    // <editor-fold defaultstate="collapsed" desc="Variable declarations (Do not edit)" >
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel algoDisp;
     private javax.swing.JComboBox<String> algoSelector;
@@ -1271,4 +1274,5 @@ public class SimulatorForm extends javax.swing.JFrame {
     private javax.swing.JLabel turnDisp;
     private javax.swing.JLabel utilization;
     // End of variables declaration//GEN-END:variables
+    // </editor-fold>
 }
