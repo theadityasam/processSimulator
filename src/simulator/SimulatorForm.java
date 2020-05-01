@@ -1163,10 +1163,8 @@ public class SimulatorForm extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new SimulatorForm().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new SimulatorForm().setVisible(true);
         });
     }
 
