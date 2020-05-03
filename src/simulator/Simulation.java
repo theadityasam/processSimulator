@@ -11,7 +11,7 @@ import items.Job;
 import items.Queue;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Aditya Samantaray
  * This class is responsible for initiating, selecting the algorithm 
  * and doing the step work for the simulation
  */

@@ -4,7 +4,7 @@ import items.Job;
 import items.Queue;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Sarah Abraham
  * "Shortest time remaining first" is same as "shortest job first"
  * except it orders the jobs in the ready queue by the shortest remaining time
  * including the job that is getting processed by the CPU.

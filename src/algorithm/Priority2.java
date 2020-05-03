@@ -5,7 +5,7 @@ import items.Queue;
 
 /**
  *
- * @author Ahmed Elmowafy
+ * @author Sarah Abraham
  * "preemptive priority" works like "shortest remaining time" except
  * that the jobs in the ready queue are ordered by priority
  */

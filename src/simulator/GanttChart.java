@@ -5,7 +5,7 @@ import items.Job;
 import java.util.ArrayList;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Sarah Abraham
  * Responsible for viewing the GanttChart queue in the GUI frame by setting
  * the place and the color of every job representation
  */

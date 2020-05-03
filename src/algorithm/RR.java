@@ -4,7 +4,7 @@ import items.Job;
 import items.Queue;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Aditya Samantaray
  * "Round Robin" algorithm let every job to be processed by the CPU for a 
  * certain time "quantum time" then replace it the next job in the ready queue.
  * when a job finishes its quantum time it get to the end of the ready queue.

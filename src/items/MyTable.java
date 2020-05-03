@@ -4,7 +4,7 @@ import simulator.Simulation;
 import javax.swing.table.AbstractTableModel;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Sarah Abraham
  * This class is responsible for representing jobs data on the table in the GUI frame
  */
 public class MyTable extends AbstractTableModel{

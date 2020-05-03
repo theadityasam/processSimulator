@@ -8,7 +8,7 @@ package simulator;
 
 /**
  *
- * @author asam
+ * @author Aditya Samantaray
  */
 public class Main {
 

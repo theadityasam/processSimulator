@@ -6,7 +6,7 @@ import items.Queue;
 import java.util.ArrayList;
 
 /**
- * @author Ahmed Elmowafy
+ * @author Sarah Abraham
  * Responsible for viewing the ready queue in the GUI frame by setting
  * the place and the color of every job representation
  */
@@ -35,6 +35,6 @@ public class ReadyChart {
      */
     public static void clear(){
          List.clear();
-         readyX = 485; // start locatoin on x-coordinate
+         readyX = 590; // start locatoin on x-coordinate
      }
 }

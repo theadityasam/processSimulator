@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author asam
+ * @author Aditya Samantaray
  */
 public class SimulatorForm extends javax.swing.JFrame {
 
@@ -27,6 +27,8 @@ public class SimulatorForm extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         MainQueue.createNew(8);  // create random data main queue
         updateTable(MainQueue.get()); // view initial jobs data in the table 
+        simulateBttn.setEnabled(false);
+        loadValDefActionPerformed(null);
         thread.start();
     }
     
@@ -75,7 +77,7 @@ public class SimulatorForm extends javax.swing.JFrame {
     }
     // </editor-fold>
     
-    // <editor-fold defaultstate="collapsed" desc="cpu visual" >
+    // <editor-fold defaultstate="collapsed" desc="CPU Stats Display" >
     
     private static int idleTime =0; // CPU idle time
     /**
@@ -1251,7 +1253,8 @@ public class SimulatorForm extends javax.swing.JFrame {
 
     private void loadValNewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadValNewActionPerformed
         // TODO add your handling code here:
-        fillJobList();        
+        fillJobList();      
+        simulateBttn.setEnabled(true);
     }//GEN-LAST:event_loadValNewActionPerformed
     
     // <editor-fold defaultstate="collapsed" desc="Add Field Actions (not required)">    
@@ -1390,6 +1393,7 @@ public class SimulatorForm extends javax.swing.JFrame {
         addField22.setText("0");
         addField23.setText("0");
         addField24.setText("0");
+        simulateBttn.setEnabled(false);
     }//GEN-LAST:event_loadValZeroActionPerformed
 
     private void loadValDefActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadValDefActionPerformed
@@ -1432,7 +1436,6 @@ public class SimulatorForm extends javax.swing.JFrame {
         algorithmsMenu.setEnabled(true);
         quantum.setEnabled(true);
         nextStepBttn.setEnabled(true);
-        simulateBttn.setEnabled(true);
         finishBttn.setEnabled(true);
         // reset average wait and turnaround
         avgWaiting.setText("0");
